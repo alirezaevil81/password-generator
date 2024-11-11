@@ -1,0 +1,28 @@
+{
+    "name": "alireza/password-generator",
+    "description": "This project provides a simple yet powerful PHP script for generating strong, secure passwords with customizable options. The script allows users to generate passwords with a mix of uppercase letters, lowercase letters, numbers, and special characters.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "alirezaharaji",
+            "email": "alirezask385@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    },
+    "scripts": {
+        "test" : "vendor/bin/phpunit --bootstrap vendor/autoload.php",
+        "phpunit" : "vendor/bin/phpunit"
+    }
+}
